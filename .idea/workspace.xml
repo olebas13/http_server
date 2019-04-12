@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8400255-72d1-419b-b68e-48a5b6f7ba21" name="Default Changelist" comment="" />
+    <list default="true" id="f8400255-72d1-419b-b68e-48a5b6f7ba21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/HttpClientSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/HttpRequestParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/ReadableHttpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/AbstractRequestParseFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerConfigException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpVersionNotSupportedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/MethodNotAllowedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/http_server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HtmlTemplateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HtmlTemplateManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpServerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpServerContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/ServerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerException.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,102 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HtmlTemplateManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/ServerInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-              <folding>
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpServerContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="e#154#155#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
@@ -116,7 +51,102 @@
                 <element signature="e#288#289#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
                 <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/AbstractRequestParseFailedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding>
+                <element signature="e#746#747#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/BadRequestException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerConfigException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+              <folding>
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpVersionNotSupportedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/MethodNotAllowedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/HttpClientSocketHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/HttpRequestParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/ReadableHttpResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -126,10 +156,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,6 +197,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpServerContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/AbstractRequestParseFailedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/BadRequestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerConfigException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpVersionNotSupportedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/MethodNotAllowedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/HttpClientSocketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/HttpRequestParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/ReadableHttpResponse.java" />
       </list>
     </option>
   </component>
@@ -180,6 +222,7 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -222,6 +265,15 @@
               <item name="http_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="http_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -236,8 +288,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554821605213" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555078010462" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sos-credit-autotests" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -343,17 +395,18 @@
       <option name="presentableId" value="Default" />
       <updated>1554199100709</updated>
       <workItem from="1554199104133" duration="18217000" />
-      <workItem from="1554721404040" duration="14750000" />
+      <workItem from="1554721404040" duration="19906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32967000" />
+    <option name="totallyTimeSpent" value="38123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,10 +424,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
-      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="CDI" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -598,7 +651,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/HttpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -622,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/ServerInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
           <folding>
             <element signature="e#356#357#0" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
@@ -657,10 +710,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/AbstractRequestParseFailedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/BadRequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerConfigException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpVersionNotSupportedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/HttpServerException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="e#154#155#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
@@ -668,7 +769,61 @@
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar!/org/sonatype/guice/bean/containers/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar!/org/eclipse/sisu/launch/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2226#2227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/exception/MethodNotAllowedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/HttpClientSocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/HttpRequestParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olebas/http_server/io/config/ReadableHttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -737,6 +892,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

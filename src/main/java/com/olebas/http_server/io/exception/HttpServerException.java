@@ -15,4 +15,8 @@ public class HttpServerException extends RuntimeException {
     public HttpServerException(Throwable cause) {
         super(cause);
     }
+
+    public void setStatusCode(int statusCode) {
+        this.statusCode = statusCode;
+    }
 }
